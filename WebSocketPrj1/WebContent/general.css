@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#header
+{
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	background-color: #0a9fed;
+	color: white;
+}
+
+h1
+{
+	margin:0;
+    text-align: center;
+	line-height: 1.5;
+}
+
+.container
+{
+	min-height: 100%;
+}
+
+.container h2
+{
+    text-align: center;
+}
+
+#login
+{
+	margin: auto;
+}
+
+#footer
+{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background-color: #18629e;
+   color: white;
+   text-align: center;
+}
+
+#msg
+{
+	color: red;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#messageArea
+{
+	width :100%;
+	height :200px; 
+}
+
+#messageText
+{
+	width: 80%
+}
+
+#logout
+{
+	float: right;
+	margin-right: 18px;
+}
+
+#sketchCanvas
+{
+	width: -webkit-fill-available ;
+	height: 200px;
+}
